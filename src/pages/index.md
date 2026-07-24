@@ -7,5 +7,7 @@ layout: ../layouts/Layout.astro
 [![GitHub repo link](https://github.com/favicon.ico) GitHub Repository](https://github.com/aidanfromtheinternet/i3x-xyz)  
 Made with: 
 [![Astro link](https://docs.astro.build/favicon.ico) Astro](https://astro.build)
+and [![Zed link](http://zed.dev/favicon_black_32.png) Zed](https://zed.dev)
 in
-[![Arch Linux link](https://archlinux.org/static/archlinux_common_style/favicon.png) Arch Linux](https://archlinux.org)
+[![Arch Linux link](https://archlinux.org/static/archlinux_common_style/favicon.png) Arch Linux](https://archlinux.org)  
+Licensed under [![MIT link](/src/assets/mit32.png) The MIT License](https://raw.githubusercontent.com/aidanfromtheinternet/i3x-xyz/main/LICENSE)
