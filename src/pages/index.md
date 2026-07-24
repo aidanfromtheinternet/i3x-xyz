@@ -10,5 +10,5 @@ Made with:
 , [![Zed image](https://raw.githubusercontent.com/aidanfromtheinternet/i3x-xyz/main/src/assets/zed32.png)](https://zed.dev) 
 , & [![Graphite image](https://raw.githubusercontent.com/aidanfromtheinternet/i3x-xyz/main/src/assets/graphite32.png)](https://graphite.art)
 in
-[![Arch Linux image](https://raw.githubusercontent.com/aidanfromtheinternet/i3x-xyz/main/src/assets/archlinux32.png) Arch Linux](https://archlinux.org)  
+[![Arch Linux image](https://raw.githubusercontent.com/aidanfromtheinternet/i3x-xyz/main/src/assets/archlinux32.png)](https://archlinux.org)  
 Licensed under [![MIT image](https://raw.githubusercontent.com/aidanfromtheinternet/i3x-xyz/main/src/assets/mit32.png)](https://raw.githubusercontent.com/aidanfromtheinternet/i3x-xyz/main/LICENSE)
