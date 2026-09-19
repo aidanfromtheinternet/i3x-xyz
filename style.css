@@ -1,5 +1,9 @@
 /* @import "https://www.nerdfonts.com/assets/css/webfont.css" */
 /* curl -L https://www.nerdfonts.com/assets/css/webfont.css | css-beautify > ./webfont.css */
+--highlight:  #FF0000
+--background: #000000
+--foreground: #FFFFFF
+
 @font-face {
     font-display: swap;
     font-family: "SymbolsNerdFont";
@@ -74,7 +78,7 @@
 }
 
 .canvas h1 {
-  color: #FF0000;
+  color: var(--highlight);
   position: absolute;
   font-size: 5.5em;
   font-family: "HalftoneJo";
@@ -87,10 +91,10 @@
 }
 
 ::selection {
-  background-color: #FF0000;
-  color: #FFFFFF;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 :root {
-    background-color: #FFFFFF;
+    background-color: var(--foreground);
 }
