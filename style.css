@@ -1,34 +1,41 @@
 /* @import "https://www.nerdfonts.com/assets/css/webfont.css" */
 /* curl -L https://www.nerdfonts.com/assets/css/webfont.css | css-beautify > ./webfont.css */
 
+:root {
+    --highlight:  #FF0000;
+    --background: #000000;
+    --foreground: #FFFFFF;
+}
+
 @font-face {
     font-display: swap;
     font-family: "SymbolsNerdFont";
     font-style: normal;
     src: url(/assets/fonts/nerd/SymbolsNerdFont-Regular.woff2), url(/assets/fonts/nerd/SymbolsNerdFont-Regular.ttf);
 }
+
 @font-face {
     font-display: swap;
     font-family: "SymbolsNerdFontMono";
     font-style: normal;
     src: url(/assets/fonts/nerd/SymbolsNerdFontMono-Regular.woff2), url(/assets/fonts/nerd/SymbolsNerdFontMono-Regular.ttf);
 }
+
 @font-face {
     font-display: swap;
     font-family: "HalftoneJo";
     font-style: normal;
     src: url(/assets/fonts/halftonejo/HalftoneJo.woff2), url(/assets/fonts/halftonejo/HalftoneJo.otf);
 }
+
 .symbol {
     font-family: "SymbolsNerdFont";
 }
+
 .symbol-mono {
     font-family: "SymbolsNerdFontMono";
 }
-.HalftoneJo {
-    font-family: "HalftoneJo";
-    font-weight: 500;
-}
+
 .cover {
   transform: rotate(-3deg);
   font-size: 4em;
@@ -88,14 +95,8 @@
 }
 
 ::selection {
-  background-color: var(--background);
-  color: var(--highlight);
-}
-
-:root {
-    --highlight:  #FF0000;
-    --background: #000000;
-    --foreground: #FFFFFF;
+  background-color: var(--highlight);
+  color: var(--foreground);
 }
 
 body {
