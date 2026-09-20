@@ -1,8 +1,5 @@
 /* @import "https://www.nerdfonts.com/assets/css/webfont.css" */
 /* curl -L https://www.nerdfonts.com/assets/css/webfont.css | css-beautify > ./webfont.css */
---highlight:  #FF0000;
---background: #000000;
---foreground: #FFFFFF;
 
 @font-face {
     font-display: swap;
@@ -92,9 +89,15 @@
 
 ::selection {
   background-color: var(--background);
-  color: var(--foreground);
+  color: var(--highlight);
 }
 
 :root {
-    background-color: var(--foreground);
+    --highlight:  #FF0000;
+    --background: #000000;
+    --foreground: #FFFFFF;
+}
+
+body {
+    background-color: var(--background);
 }
