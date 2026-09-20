@@ -10,22 +10,22 @@
 
 @font-face {
     font-display: swap;
-    font-family: "SymbolsNerdFont";
-    font-style: normal;
+    font-family:  "SymbolsNerdFont";
+    font-style:   normal;
     src: url(/assets/fonts/nerd/SymbolsNerdFont-Regular.woff2), url(/assets/fonts/nerd/SymbolsNerdFont-Regular.ttf);
 }
 
 @font-face {
     font-display: swap;
-    font-family: "SymbolsNerdFontMono";
-    font-style: normal;
+    font-family:  "SymbolsNerdFontMono";
+    font-style:   normal;
     src: url(/assets/fonts/nerd/SymbolsNerdFontMono-Regular.woff2), url(/assets/fonts/nerd/SymbolsNerdFontMono-Regular.ttf);
 }
 
 @font-face {
     font-display: swap;
-    font-family: "HalftoneJo";
-    font-style: normal;
+    font-family:  "HalftoneJo";
+    font-style:   normal;
     src: url(/assets/fonts/halftonejo/HalftoneJo.woff2), url(/assets/fonts/halftonejo/HalftoneJo.otf);
 }
 
@@ -38,70 +38,75 @@
 }
 
 .cover {
-  transform: rotate(-3deg);
-  font-size: 4em;
-  font-family: "HalftoneJo";
-  font-weight: 500;
-  margin-top: 0em;
-  margin-bottom: 0.125em;
-  position: relative;
-  z-index: 2;
+    transform: rotate(-3deg);
+    font-size: 4em;
+    font-family: "HalftoneJo";
+    font-weight: 500;
+    margin-top: 0em;
+    margin-bottom: 0.125em;
+    position: relative;
+    z-index: 2;
 }
 
 .canvas {
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  height: 500px;
-  filter: none;
-  overflow: hidden;
+    position: absolute;
+    top:    0;
+    left:   0;
+    bottom: 0;
+    right:  0;
+    height: 500px;
+    filter: none;
+    overflow: hidden;
 }
 
 .canvas::before {
-  content: "";
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  bottom: -50%;
-  right: -50%;
-  background: radial-gradient(circle at center, #333, #fff);
-  background-size: 0.25em 0.25em;
-  transform: rotate(20deg);
+    content: "";
+    position: absolute;
+    top:    -50%;
+    left:   -50%;
+    bottom: -50%;
+    right:  -50%;
+    background: radial-gradient(circle at center, #333, #fff);
+    background-size: 0.25em 0.25em;
+    transform: rotate(20deg);
 }
 
 .canvas img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  object-position: center;
-  /* mix-blend-mode: hard-light;
-  filter: grayscale(1) brightness(125%) contrast(80%) blur(2px); */
-  filter: contrast(2000%);
+    position: absolute;
+    top:    0;
+    left:   0;
+    width:  100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* mix-blend-mode: hard-light;
+    filter: grayscale(1) brightness(125%) contrast(80%) blur(2px); */
+    filter: contrast(2000%);
 }
 
 .canvas h1 {
-  color: var(--highlight);
-  position: absolute;
-  font-size: 6em;
-  font-family: "HalftoneJo";
-  font-weight: 500;
-  top: 35%;
-  left: 50%;
-  transform: translate(-50%, -50%) rotate(-3deg);
-  z-index: 3;
-  margin: 0;
+    color: var(--highlight);
+    position: absolute;
+    font-size: 6em;
+    font-family: "HalftoneJo";
+    font-weight: 500;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-3deg);
+    z-index: 3;
+    margin: 0;
 }
 
 ::selection {
-  background-color: var(--highlight);
-  color: var(--foreground);
+    background-color: var(--highlight);
+    color:            var(--foreground);
 }
 
 body {
     background-color: var(--background);
+}
+
+mark {
+    background-color: var(--highlight);
+    color:            var(--foreground);
 }
