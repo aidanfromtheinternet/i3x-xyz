@@ -94,7 +94,7 @@
     left: 50%;
     transform: translate(-50%, -50%) rotate(-3deg);
     z-index: 3;
-    margin: 0;
+    margin: 0.5em;
 }
 
 ::selection {
@@ -103,7 +103,7 @@
 }
 
 b {
-    font-weight: calc(inherit + 200);
+    font-weight:      calc(inherit + 200);
 }
 
 body {
