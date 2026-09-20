@@ -1,5 +1,6 @@
 /* @import "https://www.nerdfonts.com/assets/css/webfont.css" */
 /* curl -L https://www.nerdfonts.com/assets/css/webfont.css | css-beautify > ./webfont.css */
+/* magick assets/photo-1564186763535-ebb21ef5277f.jpg -colorspace Gray -contrast-stretch 2%x2% -ordered-dither h8x8a halftone.webp */
 
 :root {
     --highlight:  #FF0000;
@@ -77,14 +78,14 @@
   height: 500px;
   object-fit: cover;
   object-position: center;
-  mix-blend-mode: hard-light;
-  filter: grayscale(1) brightness(125%) contrast(80%) blur(2px);
+  /* mix-blend-mode: hard-light;
+  filter: grayscale(1) brightness(125%) contrast(80%) blur(2px); */
 }
 
 .canvas h1 {
   color: var(--highlight);
   position: absolute;
-  font-size: 5.5em;
+  font-size: 6em;
   font-family: "HalftoneJo";
   font-weight: 500;
   top: 35%;
