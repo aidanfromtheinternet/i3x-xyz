@@ -55,7 +55,7 @@
   bottom: 0;
   right: 0;
   height: 500px;
-  filter: contrast(2000%);
+  filter: none;
   overflow: hidden;
 }
 
@@ -81,6 +81,7 @@
   object-position: center;
   /* mix-blend-mode: hard-light;
   filter: grayscale(1) brightness(125%) contrast(80%) blur(2px); */
+  filter: contrast(2000%);
 }
 
 .canvas h1 {
