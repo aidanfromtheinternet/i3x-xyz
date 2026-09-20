@@ -102,6 +102,10 @@
     color:            var(--foreground);
 }
 
+b {
+    font-weight: calc(inherit + 200);
+}
+
 body {
     background-color: var(--background);
 }
