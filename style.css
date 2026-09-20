@@ -110,3 +110,8 @@ mark {
     background-color: var(--highlight);
     color:            var(--foreground);
 }
+
+mark::selection {
+    background-color: var(--foreground);
+    color:            var(--highlight);
+}
