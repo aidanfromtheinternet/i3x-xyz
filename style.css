@@ -110,6 +110,10 @@ body {
     background-color: var(--background);
 }
 
+i {
+    font-style:       normal;
+}
+
 mark {
     background-color: var(--highlight);
     color:            var(--foreground);
