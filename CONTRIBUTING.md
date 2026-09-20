@@ -2,8 +2,10 @@ Clone this repository
 ```shell
 git clone https://github.com/aidanfromtheinternet/i3x-xyz.git
 ```
-Then install `live-server` with `bun` *optional*
+Then install [`live-server`](https://www.npmjs.com/package/live-server) with npm or [`bun`](https://bun.sh/) *optional*
 ```shell
+npm install -g live-server
+# or
 bun install -g live-server
 ```
 Now, start a localhost development server
