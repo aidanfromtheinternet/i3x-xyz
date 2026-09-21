@@ -2,6 +2,8 @@
 /* curl -L https://www.nerdfonts.com/assets/css/webfont.css | css-beautify > ./webfont.css */
 /* magick assets/photo-1564186763535-ebb21ef5277f.jpg -colorspace Gray -contrast-stretch 2%x2% -ordered-dither h8x8a halftone.webp */
 
+/* curl -L https://raw.githubusercontent.com/mrdoob/three.js/refs/heads/dev/build/three.module.js -o three/three.module.js */
+
 :root {
     --highlight:  #FF0000;
     --background: #000000;
