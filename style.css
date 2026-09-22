@@ -3,7 +3,7 @@
 /* magick assets/photo-1564186763535-ebb21ef5277f.jpg -colorspace Gray -contrast-stretch 2%x2% -ordered-dither h8x8a halftone.webp */
 /* curl -L https://raw.githubusercontent.com/mrdoob/three.js/refs/heads/dev/build/three.module.js -o three/three.module.js */
 
-@import url(font.css);
+@import url(styles/font.css);
 
 :root {
     --highlight:  #FF0000;
