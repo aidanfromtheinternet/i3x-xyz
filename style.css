@@ -19,18 +19,7 @@
     font-family: "SymbolsNerdFontMono";
 }
 
-.cover {
-    transform: rotate(-3deg);
-    font-size: 4em;
-    font-family: "HalftoneJo";
-    font-weight: 500;
-    margin-top: 0em;
-    margin-bottom: 0.125em;
-    position: relative;
-    z-index: 2;
-}
-
-.canvas {
+.header {
     position: absolute;
     top:    0;
     left:   0;
@@ -41,7 +30,7 @@
     overflow: hidden;
 }
 
-.canvas::before {
+.header::before {
     content: "";
     position: absolute;
     top:    -50%;
@@ -53,7 +42,7 @@
     transform: rotate(20deg);
 }
 
-.canvas img {
+.header img {
     position: absolute;
     top:    0;
     left:   0;
@@ -66,7 +55,7 @@
     filter: contrast(2000%);
 }
 
-.canvas h1 {
+.header h1 {
     color: var(--highlight);
     position: absolute;
     font-size: 6rem;
