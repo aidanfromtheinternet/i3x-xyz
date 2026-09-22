@@ -1,0 +1,20 @@
+@font-face {
+    font-display: swap;
+    font-family:  "SymbolsNerdFont";
+    font-style:   normal;
+    src: url(/assets/fonts/nerd/SymbolsNerdFont-Regular.woff2), url(/assets/fonts/nerd/SymbolsNerdFont-Regular.ttf);
+}
+
+@font-face {
+    font-display: swap;
+    font-family:  "SymbolsNerdFontMono";
+    font-style:   normal;
+    src: url(/assets/fonts/nerd/SymbolsNerdFontMono-Regular.woff2), url(/assets/fonts/nerd/SymbolsNerdFontMono-Regular.ttf);
+}
+
+@font-face {
+    font-display: swap;
+    font-family:  "HalftoneJo";
+    font-style:   normal;
+    src: url(/assets/fonts/halftonejo/HalftoneJo.woff2), url(/assets/fonts/halftonejo/HalftoneJo.otf);
+}
