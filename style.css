@@ -20,14 +20,10 @@
 }
 
 .header {
-    position: absolute;
-    top:    0;
-    left:   0;
-    bottom: 0;
-    right:  0;
+    position: relative;
     height: 500px;
-    filter: none;
     overflow: hidden;
+    filter: none;
 }
 
 .header::before {
@@ -79,6 +75,7 @@ b {
 
 body {
     background-color: var(--background);
+    color: var(--foreground);
 }
 
 i {
@@ -93,4 +90,8 @@ mark {
 mark::selection {
     background-color: var(--foreground);
     color:            var(--highlight);
+}
+
+p {
+    font-family: 'Fira Sans', sans-serif;
 }
