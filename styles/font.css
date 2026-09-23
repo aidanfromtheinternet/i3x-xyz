@@ -2,14 +2,16 @@
     font-display: swap;
     font-family:  "SymbolsNerdFont";
     font-style:   normal;
-    src: url(../assets/fonts/nerd/SymbolsNerdFont-Regular.woff2), url(../assets/fonts/nerd/SymbolsNerdFont-Regular.ttf);
+    src: url("https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.4.0/patched-fonts/NerdFontsSymbolsOnly/SymbolsNerdFont-Regular.ttf") format("truetype"),
+        url(../assets/fonts/nerd/SymbolsNerdFont-Regular.woff2), url(../assets/fonts/nerd/SymbolsNerdFont-Regular.ttf);
 }
 
 @font-face {
     font-display: swap;
     font-family:  "SymbolsNerdFontMono";
     font-style:   normal;
-    src: url(../assets/fonts/nerd/SymbolsNerdFontMono-Regular.woff2), url(../assets/fonts/nerd/SymbolsNerdFontMono-Regular.ttf);
+    src: url("https://cdn.jsdelivr.net/gh/ryanoasis/nerd-fonts@v3.4.0/patched-fonts/NerdFontsSymbolsOnly/SymbolsNerdFontMono-Regular.ttf") format("truetype"),
+        url(../assets/fonts/nerd/SymbolsNerdFontMono-Regular.woff2), url(../assets/fonts/nerd/SymbolsNerdFontMono-Regular.ttf);
 }
 
 @font-face {
