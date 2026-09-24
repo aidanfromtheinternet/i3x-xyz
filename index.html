@@ -10,13 +10,22 @@
 
 <body>
     <div class="header">
-        <h1>YOUR CASTER, MADE <mark>EASY</mark></h1><img alt="Halftone guitar image" src="assets/halftone.webp">
+        <h1 data-text="YOUR CASTER, MADE EASY">YOUR CASTER,<br>MADE <mark>EASY</mark></h1>
+        <img alt="Halftone guitar image" src="assets/halftone.webp">
     </div>
 
     <h1>heading</h1>
     <p>
     paragraph
     </p>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+        <filter id="duotone" color-interpolation-filters="sRGB">
+        <feFlood style="flood-color: var(--foreground)" result="paper"/>
+        <feBlend in="SourceGraphic" in2="paper" mode="multiply" result="lit"/>
+        <feFlood style="flood-color: var(--image-ink)" result="ink"/>
+        <feBlend in="lit" in2="ink" mode="lighten"/>
+  </filter>
+</svg>
 </body>
 
 </html>

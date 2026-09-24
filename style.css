@@ -6,9 +6,13 @@
 @import url(styles/font.css);
 
 :root {
-    --highlight:  #FF0000;
-    --background: #000000;
-    --foreground: #FFFFFF;
+    --image-ink:    #120F10;
+    --highlight:    #ED1C24;
+    --background:   var(--image-ink); /* #231F20; */
+    --foreground:   #FAFAF7;
+    --plate-cyan:   #00E5FF;
+    --plate-yellow: #FFEB00;
+    --misprint:     -0.005em;
 }
 
 .symbol {
@@ -48,7 +52,7 @@
     object-position: center;
     /* mix-blend-mode: hard-light;
     filter: grayscale(1) brightness(125%) contrast(80%) blur(2px); */
-    filter: contrast(2000%);
+    filter: contrast(2000%) url(#duotone);
 }
 
 .header h1 {
@@ -62,6 +66,26 @@
     transform: translate(-50%, -50%) rotate(-3.5deg);
     z-index: 3;
     margin: 0.35em;
+}
+
+/* chromatic misregistration plates; needs <h1 data-text="Title">Title</h1> */
+.header h1::before,
+.header h1::after {
+    content: attr(data-text);
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    mix-blend-mode: screen;
+}
+
+.header h1::before {
+    color: var(--plate-cyan);
+    transform: translate(var(--misprint), calc(var(--misprint) * 0.67));
+}
+
+.header h1::after {
+    color: var(--plate-yellow);
+    transform: translate(calc(var(--misprint) * -1), calc(var(--misprint) * -0.67));
 }
 
 ::selection {
