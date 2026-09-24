@@ -6,11 +6,11 @@
 @import url(styles/font.css);
 
 :root {
-    --image-ink:    #120F10;
     --highlight:    #ED1C24;
-    --background:   var(--image-ink); /* #231F20; */
+    --background:   #120F10;
     --foreground:   #FAFAF7;
     --plate-cyan:   #00E5FF;
+    --plate-key:    var(--background);
     --plate-yellow: #FFEB00;
     --misprint:     -0.005em;
 }
